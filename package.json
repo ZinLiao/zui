@@ -1,0 +1,11 @@
+{
+  "name": "root",
+  "private": false,
+  "scripts": {
+    "commit": "git cz",
+    "release": "standard-version"
+  },
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
