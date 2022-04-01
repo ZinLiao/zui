@@ -2,6 +2,9 @@ import { Config } from '@stencil/core';
 
 export const config: Config = {
   namespace: 'zui-button',
+  bundles: [
+    {components: ['zui-button']}
+  ],
   outputTargets: [
     {
       type: 'dist',
